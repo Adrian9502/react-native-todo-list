@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/todo-icon.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.adrian9502.RNCrud"
     },
     "web": {
       "bundler": "metro",
@@ -27,7 +28,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/todo-icon.jpg.png",
+          "image": "./assets/images/todo-icon.jpg",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c9d22153-ddd3-4b6a-927e-5f640553fcfc"
+      }
+    },
+    "owner": "adrian9502"
   }
 }
